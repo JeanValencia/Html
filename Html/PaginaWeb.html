@@ -22,52 +22,170 @@
         <h4>Hola es una prueba</h4>
         <h5>Hola es una prueba</h5>
         <h6>Hola es una prueba</h6>
-
-    <!--Parrafos-->
-    <!--la etiqueta b es para negritas, algo visual-->
-    <!--la etiqueta strong es para negritas y buscadores, google lo busca-->
-    <!--span me permite trabajar con css y cambiar el estilo-->
-    <!--la etiqueta i me permite poner en cursiva-->
-    <p>
-        <b>Lorem ipsum dolor</b> sit amet consectetur, 
-        adipisicing elit. <strong>Maxime similique</strong> minus illo 
-        repellendus beatae voluptatibus reiciendis voluptas 
-        vitae <span>eum repudiandae</span> rem at accusantium nesciunt, 
-        <i>praesentium</i>, dolores nemo! Optio, labore aperiam.
-    </p>
-
-    <!-- hr me permite agregar una linea separadora-->
-    <hr>
-
-    <br>
-    <h2>Subtitulo del articulo</h2>
-    <!--blockquote me permite agregar uan cita de algun libro-->
-   <!--cite me permite agregar el autor de la cita-->
-    <p>
-        
-        <blockquote>ipsum dolor sit amet consectetur, 
-            adipisicing elit. Maxime similique minus illo 
+        <!--------------------------------------------------------------------------------------------->
+        <!--Parrafos-->
+        <!--la etiqueta b es para negritas, algo visual-->
+        <!--la etiqueta strong es para negritas y buscadores, google lo busca-->
+        <!--span me permite trabajar con css y cambiar el estilo-->
+        <!--la etiqueta i me permite poner en cursiva-->
+        <p>
+            <b>Lorem ipsum dolor</b> sit amet consectetur, 
+            adipisicing elit. <strong>Maxime similique</strong> minus illo 
             repellendus beatae voluptatibus reiciendis voluptas 
-            vitae eum repudiandae rem at accusantium nesciunt, 
-            praesentium, dolores nemo! Optio, labore aperiam.
-        </blockquote> 
-        <cite>Jean Valencia</cite>
-    </p>
+            vitae <span>eum repudiandae</span> rem at accusantium nesciunt, 
+            <i>praesentium</i>, dolores nemo! Optio, labore aperiam.
+        </p>
 
+        <!---------------------------------------------------------------------------------------------->
 
-    <!--Enlaces-->
-    <!-- La etiqueta a con el atributo href me permite agregar links-->
-    <!-- Hay rutas absolutas y rutas relativas-->
-    <!--Ruta absoluta, porque es un link externo con url predefinida-->
-    <!--Ademas con target puedo abrir la pagina en otra pestaña-->
-    <a target="_blank" href="https://www.google.com">Ir a goole</a>
-    <!--Ruta relativa, dentro de mi sitio web-->
-    <a href="Imagenes/color.jpg">Ir a la imagen</a>
+        <!--Imagenes--> <!--Si es muy grande podemos ajustar con wigth y height-->
+        <!--Puedo utilizar solo el width o tambien solo el height-->
+        <!--El atributo alt es importante de usar, por si no encuentra la imagen -->
+        <!--title me permite agregar una descripcion de la imagen-->
+        <img src="Imagenes/color.jpg" alt="Logotipo de Jean" title="Logotipo hecho por Jean" width="300" height="300"/>
+        
+        <!--Tambien podemos utilizar imagenes del internet-->
+        <img src="https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg" alt="Logotipo de Jean" title="Logotipo 2 hecho por Jean" width="300" height="300"/>
+        
+        <br><br>
 
-    <!--Etiqueta para enviar un correo-->
-    <!--El problema es que hay bots que envian spam al correo-->
-    <a href="mailto:jean21valencia@gamil.com" title="Enviar correo a Jean Valencia">Enviar email</a>
-    
+        <!-- hr me permite agregar una linea separadora-->
+        <hr>
+
+        <br>
+        <h2>Subtitulo del articulo</h2>
+        <!--blockquote me permite agregar uan cita de algun libro-->
+        <!--cite me permite agregar el autor de la cita-->
+        <p>
+        
+            <blockquote>ipsum dolor sit amet consectetur, 
+                adipisicing elit. Maxime similique minus illo 
+                repellendus beatae voluptatibus reiciendis voluptas 
+                vitae eum repudiandae rem at accusantium nesciunt, 
+                praesentium, dolores nemo! Optio, labore aperiam.
+            </blockquote> 
+            <cite>Jean Valencia</cite>
+        </p>
+
+        <!------------------------------------------------------------------------------------------------>
+        <!--Enlaces-->
+        <!-- La etiqueta a con el atributo href me permite agregar links-->
+        <!-- Hay rutas absolutas y rutas relativas-->
+        <!--Ruta absoluta, porque es un link externo con url predefinida-->
+        <!--Ademas con target puedo abrir la pagina en otra pestaña-->
+        <a target="_blank" href="https://www.google.com">Ir a goole</a>
+        <!--Ruta relativa, dentro de mi sitio web-->
+        <a href="Imagenes/color.jpg">Ir a la imagen</a>
+
+        <!--Etiqueta para enviar un correo-->
+        <!--El problema es que hay bots que envian spam al correo-->
+        <a href="mailto:jean21valencia@gamil.com" title="Enviar correo a Jean Valencia">Enviar email</a>
+        
+
+        <!-------------------------------------------------------------------------------------------->
+        <!--Listas: ordenadas y desordenadas-->
+        <!--Listas desordenadas-->
+        <!-- li nos permite poner los items-->
+        <!-- Se utilizan mas para navegacion-->
+        <ul>
+            <li><a href="#">Item #1</a></li>
+            <li>Item #2</li>
+
+                <ul>
+                    <li>Item 111</li>
+                    <li>Item 112</li>
+                </ul>
+
+            <li>Item #3</li>
+            <li>Item #4</li>
+            <li>Item #5</li>
+        </ul>
+        
+        <br>
+
+        <!--Listas ordenadas-->
+        <!--No se suelen utilizar mucho-->
+        <ol>
+            <li><a href="#">Item #1</a></li>
+            <li>Item #2</li>
+            <ul>
+                <li>Item 111</li>
+                <li>Item 112</li>
+            </ul>
+            <li>Item #3</li>
+            <li>Item #4</li>
+            <li>Item #5</li>
+        </ol>
+
+        <br><br>
+        <!--------------------------------------------------------------------------->
+        <!--Tablas-->
+        <!--Me permite tabular contenido, estadisticas, datos, valores-->
+        <!-- tr me permite crear una fila-->
+        <!-- td es columna-->
+        <table>
+            <tr>
+                <td>Elemento #1</td>
+                <td>Elemento #2</td>
+                <td>Elemento #3</td>
+            </tr>
+            <tr>
+                <td>Elemento #1</td>
+                <td>Elemento #2</td>
+                <td>Elemento #3</td>
+            </tr>
+            <tr>
+                <td>Elemento #1</td>
+                <td>Elemento #2</td>
+                <td>Elemento #3</td>
+            </tr>
+        </table>
+
+        <br/>
+
+        <!------------------------------------------------------------------------------------->
+        <!--Formularios-->
+        <!--Permite q el usuario puede ingresar 
+        informacion y nosotros generaremos una respuesta-->
+        <!-- action ="datos.php" recibe una url-->
+        <!-- method ="Get" permite saber porq metodo vamos a enviar la informacion-->
+        <!-- input es la entrada y type que tipo de entrada-->
+        <!-- placeholder me permite poner un texto en la caja de texto-->
+        <!-- size ="10" es el tamaño del formulario-->
+        <!-- maxlength me permite establecer el maximo de caracteres que se pueden ingresar-->
+        <!-- name me permite buscar en el servidor, agiliza la busqueda-->
+        <!-- label me permite asignar el texto al input-->
+        <form>
+            <label for="nombre">Ingrese su nombre</label>
+            <input type="text" placeholder="Escribe tu nombre" maxlength="15" name="nombre" id="nombre">
+            <br>
+            <!-- Permite esconder la contraseña-->
+            <input type="password">
+            <br>
+            <!--Permite saber si es un correo lo que ingresamos-->
+            <input type="email" name="" id="">
+
+            <br>
+            <!--agrega una casilla de seleccion -->
+            <input type="Radio" name="" id="">Hombre
+            <input type="radio" name="" id="">Mujer
+            <br>
+            <!--Añade un boton-->
+            <input type="button" value="Enviar">
+
+            <!--es un boton que envia los datos respecto a los atributos de
+            la etiqueta form-->
+            <input type="submit" value="Enviar consulta">
+            
+            <!--Agrega una casilla desplegable-->
+            <select name="" id="">
+                <option value="Mexico">Mexico</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Colombia">Colombia</option>
+            </select>
+
+            
+        </form>
 
 
 
